@@ -1,5 +1,5 @@
-local myName = "Rob"
-local favNumber = 21
+local name = "Aqua"
+local age = 18
 local isAlive = true
 
-print("Hell my name is " .. myName .. " my favorite number is " .. favNumber .. " and i am alive yes or no ")
+print("Hello my name is " .. name .. " my age is " .. age)

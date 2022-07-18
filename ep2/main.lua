@@ -1,16 +1,37 @@
-local a = 5
-local b = 10
+local a = 6
+local b = 2
 
-local addtion = 7 + b
+local sum = a + b
 
-local subtraction = b - a
+print(sum)
 
-local multiplaytion = a * b
+local minus = a - 8
 
-local dividison = b / a
+print(minus) 
 
-local power = 5^3
+local multi = a * b 
 
-local modulus = 6 % 13 
+print(multi)
 
-print(modulus) 
+local divs = a / b
+
+print (divs)
+
+local pow = a ^ 4 
+
+print(pow)
+
+local mod = a % 4
+
+print(mod)
+
+local count = 1 
+print(count)
+count = count + 1
+print(count)
+count = count + 1
+print(count)
+count = count + 1
+print(count)
+count = count + 1
+print(count)

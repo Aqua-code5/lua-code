@@ -1,40 +1,31 @@
-local hp = 100
-local isAlive = true 
-local playerName = "Bob"
+local a = 10
 
---[[
-if hp <= 0  then 
-    print("Player is dead")
-elseif hp < 50 then
-    print("Player is low on HP")
-else
-    print("Player is good on HP")
+if a == 5 then
+    print("its equal to 5 ")
+else 
+    print("its not equal to 5")
 end
-]]-- 
 
---[[
-if isAlive  then
-    print("Is alive")
-end
-]]--
 
---[[
-if playerName ~= "Aqua" or playerName ~= "Bob" then
-    print("Player has a deosnt have a valid username")
-else
-    print("Player has a valid username")
+local b = 7 
+
+if a == 9 or b == 7 then
+    print("a and b are eqaul to 9, 7")
+end 
+
+if a == 7 then
+    print("A is equal to 7")
+elseif a == 9 then
+    print("A is equal to 9")
+else 
+    print("a is not equla ot 7 or 9 ")
 end
-]]--
---[[
-if isAlive then
-    if playerName == "Aqua" or playerName == "Bob" then
-        if hp > 50 then
-            print("Player is ready to game!")
-        end
+
+
+if a == 10 then 
+    if b == 7 then
+        print('both are equal')
+    else 
+        print("only a is equal to 10")
     end
-end
-]]--
-
-if hp > 50 and isAlive then
-    print("Player is ready to go")
 end
